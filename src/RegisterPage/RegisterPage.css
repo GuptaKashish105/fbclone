@@ -1,0 +1,87 @@
+.fb {
+  margin: 10rem 5rem;
+}
+.fbline {
+  color: #4267b2;
+  font-size: 1.2rem;
+}
+.fb img {
+  height: 65%;
+  width: 90%;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .registerH {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0.5rem 2rem;
+    border: 0.1rem #c0b8b8 solid;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    margin-top: 3rem;
+  }
+  .form-container li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  
+  }
+  input {
+    border: 0.1rem #999797 solid;
+    border-radius: 0.5rem;
+    background-color: #e9e3e3;
+  }
+  #password {
+    width: 30rem;
+  }
+  input:hover {
+    background-color: rgb(196, 194, 191);
+  }
+  .buttonn.primary {
+    padding: 5px 30px;
+    margin-top: 1rem;
+    background-color: orange;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    border-color: black;
+  }
+  .buttonn.secondary {
+    padding: 5px 10px;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .buttonn.primary:hover {
+    background-color: #f08112;
+  }
+  .buttonn.secondary:hover {
+    color: #2c7777;
+  }
+  .li {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .loginR {
+      padding-top: 3rem;
+      text-align: center;
+  }
+  input[type="checkbox"] {
+    visibility: visible;
+  }

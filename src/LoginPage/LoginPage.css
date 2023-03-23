@@ -1,0 +1,109 @@
+ .form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* height: 100%; */
+ }
+
+ .signinH {
+   font-size: 2.5rem;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+ }
+
+ .form-container {
+   display: flex;
+   flex-direction: column;
+   width: 20rem;
+   padding: 0.5rem 2rem;
+   border: 0.1rem #c0b8b8 solid;
+   border-radius: 0.5rem;
+   list-style-type: none;
+   margin-top: 3rem;
+   background-color: white;
+ }
+
+ .form-container li {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.5rem;
+ }
+ input {
+   padding: 1rem;
+   border: 0.1rem #999797 solid;
+   border-radius: 0.5rem;
+   background-color: #e9e3e3;
+ }
+
+ input:hover {
+   background-color: rgb(196, 194, 191);
+ }
+
+ .buttonn.primary {
+   padding: 5px 30px;
+   margin-top: 1rem;
+   background-color: orange;
+   font-size: 2rem;
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 0.5rem;
+   max-width: 100%;
+   border-color: black;
+ }
+
+ .buttonn.secondary {
+   padding: 5px 30px;
+   margin-top: 2rem;
+   /* background-color: rgb(185, 180, 180); */
+   border-radius: 0.5rem;
+   max-width: 100%;
+   font-size: 2rem;
+   /* color: black; */
+ }
+
+ .buttonn.primary:hover {
+   background-color: #f08112;
+ }
+
+ .buttonn.secondary:hover {
+   color: #2bb4b4;
+ }
+
+ .li {
+   font-size: 1.5rem;
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ .text-center {
+   text-align: center;
+ }
+
+ .facebook h1 {
+   font-size: 4rem;
+   color: #4267b2;
+   padding-top: 10rem;
+ }
+
+ .container {
+   background-color: #e9eeee;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   height: 100vh;
+ }
+
+ .form {
+   flex: 1.5;
+   padding-right: 3rem;
+   box-shadow: inset 0 5px 40px rgba(0, 0, 0, 0.15),
+     inset 2px 0 44px rgba(0, 0, 0, 0.15),
+     inset -2px 0 4px rgba(0, 0, 0, 0.15);
+ }
+
+ .facebook {
+   flex: 1;
+   padding: 5rem 10rem;
+ }
+
+ .facebook p {
+   font-size: 1.5rem;
+ }
