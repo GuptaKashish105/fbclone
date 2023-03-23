@@ -19,9 +19,11 @@ const RegisterPage = () => {
     } else if (password !== reenterpassword) {
       setPasswordMatch(false);
     } else {
-      console.log(passwordMatch);
-      alert("You are successfully logged in!");
-      console.log("User name is: " + name + ", User Email is: " + email + " and the password is: " + reenterpassword);
+      alert("You are successfully registered!");
+      console.log("Your Email is: " + email + " and your password is: " + password);
+      localStorage.setItem("email", email); 
+      localStorage.setItem("name", name); 
+      localStorage.setItem("password", reenterpassword); 
       navigate("/home");
     }
   };
